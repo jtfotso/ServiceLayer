@@ -6,8 +6,8 @@ namespace ServiceLayer.DTW.Domain.Models
 {
     public class BPAddress
     {
-        public string AdressName { get; set; } = string.Empty;
-        public string AdressType { get; set; } = string.Empty;
+        public string AddressName { get; set; } = string.Empty;
+        public string AddressType { get; set; } = string.Empty;
         public string Street { get; set; } = string.Empty;
         public string City { get; set; } = string.Empty;
         public string ZipCode { get; set; } = string.Empty;

@@ -17,6 +17,7 @@ namespace ServiceLayer.DTW.Domain.Models
         public string? EmailAddress { get; set; }
         public string? Website { get; set; }
         public string? FederalTaxID { get; set; }
+        public Dictionary<string, string> UdfFields { get; set; } = new Dictionary<string, string>();
 
         public List<BPAddress> Addresses { get; set; } = new List<BPAddress>();
         public List<ContactPerson> Contacts { get; set; } = new List<ContactPerson>();
