@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\ServiceLayer.DTW.Application\ServiceLayer.DTW.Application.csproj" />
+    <ProjectReference Include="..\..\src\ServiceLayer.DTW.Infrastructure\ServiceLayer.DTW.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
